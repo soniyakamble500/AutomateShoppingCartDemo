@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="80503" started-at="2020-11-01T13:25:16Z" finished-at="2020-11-01T13:26:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="80503" started-at="2020-11-01T13:25:16Z" finished-at="2020-11-01T13:26:37Z">
+      <class name="testSuitOne.RegisterUser">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:testSuitOne.RegisterUser@6e0dec4a]" name="openApplication" is-config="true" duration-ms="17719" started-at="2020-11-01T18:55:16Z" finished-at="2020-11-01T18:55:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="verifyShoppingDetails()[pri:0, instance:testSuitOne.RegisterUser@6e0dec4a]" name="verifyShoppingDetails" duration-ms="199" started-at="2020-11-01T18:55:34Z" finished-at="2020-11-01T18:55:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyShoppingDetails -->
+        <test-method status="PASS" signature="register()[pri:1, instance:testSuitOne.RegisterUser@6e0dec4a]" name="register" duration-ms="4881" started-at="2020-11-01T18:55:34Z" finished-at="2020-11-01T18:55:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="verifyRegistration()[pri:2, instance:testSuitOne.RegisterUser@6e0dec4a]" name="verifyRegistration" duration-ms="24" started-at="2020-11-01T18:55:39Z" finished-at="2020-11-01T18:55:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegistration -->
+        <test-method status="PASS" signature="logoutAfterRegistration()[pri:3, instance:testSuitOne.RegisterUser@6e0dec4a]" name="logoutAfterRegistration" duration-ms="5604" started-at="2020-11-01T18:55:39Z" finished-at="2020-11-01T18:55:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutAfterRegistration -->
+        <test-method status="PASS" signature="verifyloginWithSameCredential()[pri:4, instance:testSuitOne.RegisterUser@6e0dec4a]" name="verifyloginWithSameCredential" duration-ms="3950" started-at="2020-11-01T18:55:45Z" finished-at="2020-11-01T18:55:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyloginWithSameCredential -->
+        <test-method status="PASS" signature="verifyLoginEmailId()[pri:5, instance:testSuitOne.RegisterUser@6e0dec4a]" name="verifyLoginEmailId" duration-ms="184" started-at="2020-11-01T18:55:49Z" finished-at="2020-11-01T18:55:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginEmailId -->
+        <test-method status="PASS" signature="clickOnEmail()[pri:6, instance:testSuitOne.RegisterUser@6e0dec4a]" name="clickOnEmail" duration-ms="6075" started-at="2020-11-01T18:55:49Z" finished-at="2020-11-01T18:55:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnEmail -->
+        <test-method status="PASS" signature="leftClickOnAddress()[pri:7, instance:testSuitOne.RegisterUser@6e0dec4a]" name="leftClickOnAddress" duration-ms="4271" started-at="2020-11-01T18:55:55Z" finished-at="2020-11-01T18:55:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leftClickOnAddress -->
+        <test-method status="PASS" signature="addnew()[pri:8, instance:testSuitOne.RegisterUser@6e0dec4a]" name="addnew" duration-ms="5089" started-at="2020-11-01T18:55:59Z" finished-at="2020-11-01T18:56:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addnew -->
+        <test-method status="PASS" signature="fillTheForm()[pri:9, instance:testSuitOne.RegisterUser@6e0dec4a]" name="fillTheForm" duration-ms="16938" started-at="2020-11-01T18:56:04Z" finished-at="2020-11-01T18:56:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillTheForm -->
+        <test-method status="PASS" signature="clickonOrders()[pri:10, instance:testSuitOne.RegisterUser@6e0dec4a]" name="clickonOrders" duration-ms="4943" started-at="2020-11-01T18:56:21Z" finished-at="2020-11-01T18:56:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonOrders -->
+        <test-method status="PASS" signature="verifyOrdersDetails()[pri:11, instance:testSuitOne.RegisterUser@6e0dec4a]" name="verifyOrdersDetails" duration-ms="4094" started-at="2020-11-01T18:56:26Z" finished-at="2020-11-01T18:56:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrdersDetails -->
+        <test-method status="PASS" signature="CloseApplication()[pri:0, instance:testSuitOne.RegisterUser@6e0dec4a]" name="CloseApplication" is-config="true" duration-ms="6419" started-at="2020-11-01T18:56:30Z" finished-at="2020-11-01T18:56:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApplication -->
+      </class> <!-- testSuitOne.RegisterUser -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
+  <parameter name="Openlinks" value="Activelinks"/>
+  <test thread-count="5" name="Test">
+    <parameter name="Openlinks" value="Activelinks"/>
+    <classes>
+      <class name="testSuitThree.VerifyTheFooterLinks"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Failed suite [Suite] -->

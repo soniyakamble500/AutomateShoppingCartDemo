@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Leaning_Automation_Test_suite]" parallel="none">
+  <test thread-count="3" name="Smoke_Test">
+    <classes>
+      <class name="testSuitOne.RegisterUser"/>
+    </classes>
+  </test> <!-- Smoke_Test -->
+  <test thread-count="3" name="Regression_Test">
+    <classes>
+      <class name="testSuitTwo.MakeNewOrders"/>
+    </classes>
+  </test> <!-- Regression_Test -->
+  <test name="Smoke_Test(failed)" parallel="none">
+    <classes>
+      <class name="testSuitOne.RegisterUser">
+        <methods>
+          <include name="clickonOrders"/>
+          <include name="clickOnEmail"/>
+          <include name="verifyOrdersDetails"/>
+          <include name="verifyShoppingCartDetails"/>
+          <include name="verifyLoginEmailId"/>
+          <include name="verifyloginWithSameCredential"/>
+          <include name="register"/>
+          <include name="openApplication"/>
+          <include name="logoutAfterRegistration"/>
+          <include name="leftClickOnAddress"/>
+          <include name="addnew"/>
+          <include name="fillTheForm"/>
+          <include name="verifyRegistration"/>
+        </methods>
+      </class> <!-- testSuitOne.RegisterUser -->
+      <class name="testSuitTwo.MakeNewOrders">
+        <methods>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- testSuitTwo.MakeNewOrders -->
+    </classes>
+  </test> <!-- Smoke_Test(failed) -->
+</suite> <!-- Failed suite [Leaning_Automation_Test_suite] -->
